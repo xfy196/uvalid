@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:esm": "npm run clean && rollup --config rollup.config.esm.js",
-    "build:cjs": "npm run clean && rollup --config rollup.config.cjs.js",
+    "build:esm": "rollup --config rollup.config.esm.js",
+    "build:cjs": "rollup --config rollup.config.cjs.js",
+    "build:umd": "rollup --config rollup.config.umd.js",
     "dev": "rollup --config --watch",
     "clean": "rimraf ./dist"
   },
