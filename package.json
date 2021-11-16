@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup --config",
-    "dev": "rollup --config --watch"
+    "build:esm": "npm run clean && rollup --config rollup.config.esm.js",
+    "build:cjs": "npm run clean && rollup --config rollup.config.cjs.js",
+    "dev": "rollup --config --watch",
+    "clean": "rimraf ./dist"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "rimraf": "^3.0.2",
     "rollup": "^2.60.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0"
