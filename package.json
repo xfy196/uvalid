@@ -10,6 +10,11 @@
     "dev": "rollup --config --watch",
     "clean": "rimraf ./dist"
   },
+  "keywords": ["validator", "valid","utils"],
+  "repository": {
+    "url": "https://github.com/xfy196/uvalid.git"
+  },
+  "homepage": "https://github.com/xfy196/uvalid.git",
   "author": "",
   "license": "ISC",
   "devDependencies": {
