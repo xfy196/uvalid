@@ -1,8 +1,8 @@
 {
   "name": "uvalid",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "./dist/uvalid.esm.js",
+  "main": "dist/uvalid.esm.js",
   "scripts": {
     "build:esm": "rollup --config rollup.config.esm.js",
     "build:cjs": "rollup --config rollup.config.cjs.js",
@@ -10,7 +10,11 @@
     "dev": "rollup --config --watch",
     "clean": "rimraf ./dist"
   },
-  "keywords": ["validator", "valid","utils"],
+  "keywords": [
+    "validator",
+    "valid",
+    "utils"
+  ],
   "repository": {
     "url": "https://github.com/xfy196/uvalid.git"
   },
