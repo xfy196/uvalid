@@ -1,15 +1,14 @@
 {
   "name": "uvalid",
-  "version": "1.0.2",
+  "version": "1.1.6",
   "description": "",
-  "main": "dist/uvalid.esm.js",
+  "main": "dist/uvalid.umd.js",
   "scripts": {
     "build:esm": "rollup --config rollup.config.esm.js",
     "build:cjs": "rollup --config rollup.config.cjs.js",
     "build:umd": "rollup --config rollup.config.umd.js",
     "dev": "rollup --config --watch",
-    "clean": "rimraf ./dist",
-    "publish": "npm run clean && npm publish"
+    "clean": "rimraf ./dist"
   },
   "keywords": [
     "validator",
